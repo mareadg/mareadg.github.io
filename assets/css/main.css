@@ -11,29 +11,6 @@
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 
- /* CSS responsivo para el video */
- .video-wrap {
-  position: relative;
-  padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  background: #000;
-}
-
-.video-wrap video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-@media only screen and (max-width: 768px) {
-  .video-wrap video {
-      object-fit: cover; /* Asegura que el video cubra todo el contenedor en móviles */
-  }
-}
 /* Fonts */
 
 
