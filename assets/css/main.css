@@ -13,6 +13,77 @@
 
 /* Fonts */
 
+.full-width-container {
+  width: 100%;
+  padding: 0; /* Remove padding if needed */
+  margin: 0 auto;
+}
+
+.full-width-container .portfolio-details-slider {
+  width: 100%;
+}
+
+.full-width-container .swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  color: #333;
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transform: translateY(20px);
+  border-radius: 15px; /* Borde redondeado para la tarjeta */
+  overflow: hidden; /* Oculta cualquier contenido que se desborde */
+}
+
+.card:hover,
+.card:focus {
+  transform: translateY(0) scale(1.05); /* Aumenta el tamaño al hacer hover o focus */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  border-radius: 15px 15px 0 0; /* Borde redondeado solo en las esquinas superiores */
+  height: 250px; /* Altura inicial de la imagen */
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .card-img-top,
+.card:focus .card-img-top {
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen al hacer hover o focus */
+}
+
+.card-body {
+  background-color: #fff;
+  border-top: 2px solid #007bff;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem; /* Tamaño de título */
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  color: #555;
+  font-size: 1rem;
+}
+
+
 
 
 /* Estilos para el video de fondo */
