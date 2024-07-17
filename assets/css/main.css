@@ -979,7 +979,7 @@ section,
   background: none;
   font-size: 26px;
   line-height: 0;
-  background: color-mix(in srgb, var(--default-color), transparent 80%);
+  background: color-mix(in srgb, var(--default-color), transparent 95%);
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   border-radius: 50px;
   width: 54px;
