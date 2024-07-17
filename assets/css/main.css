@@ -88,10 +88,10 @@ h1 {
 
 /* Estilos para el video de fondo */
 .video-background {
-  position: absolute;
+  position:  absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 700%;
   height: 100%;
   object-fit: cover;
   z-index: -1;
@@ -898,7 +898,7 @@ section,
 }
 
 .hero .info p {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
   font-size: 18px;
 }
 
@@ -948,7 +948,7 @@ section,
 
 .hero .carousel-item::before {
   content: "";
-  background-color: color-mix(in srgb, var(--background-color), transparent 30%);
+  background-color: color-mix(in srgb, var(--background-color), transparent 80%);
   position: absolute;
   inset: 0;
   z-index: 2;
