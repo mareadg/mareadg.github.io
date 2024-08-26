@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #009970;
+  color: #00997000;
   text-decoration: none;
 }
 
@@ -90,7 +90,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: #fff;
+  background: #ffffff00;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   top: 0;
 }
@@ -98,7 +98,7 @@ h6 {
 #header .logo {
   overflow: hidden;
   padding: 16px 30px 12px 30px;
-  background: #ffffff;
+  background: #ffffff00;
 }
 
 #header .logo h1 {
@@ -111,26 +111,26 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #fff;
+  color: #ffffff00;
   text-decoration: none;
 }
 
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 70px;
+  max-height: 60px;
 }
 
 @media (max-width: 992px) {
   #header {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     top: 0;
-    background: #ffffff;
+    background: #00997000;
   }
 
   #header.header-scrolled,
   #header .header-container {
-    background: #ffffff;
+    background: #ffffff00;
   }
 
   #header .logo {
@@ -278,7 +278,8 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #000000;
+  color: #ffffff;
+  background-color: #000000;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -430,7 +431,7 @@ h6 {
   }
 
   #hero .carousel-item img {
-    object-fit: contain; /* Asegurar que la imagen no se recorte en móviles */
+    object-fit: 100%; /* Asegurar que la imagen no se recorte en móviles */
   }
 
   #hero .container {
