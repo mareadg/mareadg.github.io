@@ -536,7 +536,7 @@ section {
 }
 
 .clients img {
-  width: 40%;
+  width: 50%;
   filter: grayscale(100);
   transition: all 0.4s ease-in-out;
   display: inline-block;
